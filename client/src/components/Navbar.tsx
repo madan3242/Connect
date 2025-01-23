@@ -22,7 +22,8 @@ const Navbar: React.FC = () => {
       <div className="h-16 w-full shadow-md flex items-center py-2 px-10 justify-between fixed z-20 top-0 bg-purple-100">
         <Link to="/">
           <h1 className="text-2xl font-bold text-purple-600 flex items-center justify-between">
-            <ChatBubbleOvalLeftIcon className="h-7 w-7 " /> Mingle
+            {/* <ChatBubbleOvalLeftIcon className="h-7 w-7 " />  */}
+            Connect
           </h1>
         </Link>
 
