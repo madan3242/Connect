@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { ChatBubbleOvalLeftIcon, UserIcon } from "@heroicons/react/24/outline";
+import { UserIcon } from "@heroicons/react/24/outline";
 import { useAuth } from "../context/AuthContext";
 import Profile from "./Profile";
 
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         <Link to="/">
           <h1 className="text-2xl font-bold text-purple-600 flex items-center justify-between">
             {/* <ChatBubbleOvalLeftIcon className="h-7 w-7 " />  */}
-            Connect
+            Bubble
           </h1>
         </Link>
 
